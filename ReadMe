@@ -1,0 +1,27 @@
+Name: Pramod Kemisetty
+UTA ID: 1001570333
+
+What programming language is used?
+Java
+
+How code is structured?
+BayesianNetwork.java- Contains a code to generate the inputs, find all combinations, compute probability and returns the result.
+Assignment6Part2.java- This is main class. It reads the input from the cmd prompt and divides it to numerator and denominator,
+calculates them individually by invoking BayesianNetwork.java class and finally finds the probability.
+
+How to run the code?
+Change the directory to src folder from  Task2 project.
+To compile all the java files in src provide following comment: javac *.java 
+Note: Make sure all .class in src are deleted before compiling
+To run the code:
+java Assignment6part2 Input1 Input2 Input3 (Inputs Can be given upto 5)
+ex: 	java Assignment6part2 Bf At Mt
+
+
+References:
+Finding different combinations-https://github.com/siddhantgawsane/ArtificialIntelligence1/blob/master/assignment5/bnet.py
+https://stackoverflow.com/questions/34063620/java-print-double-println-or-printf
+https://github.com/jluttine/tikz-bayesnet
+https://www.youtube.com/watch?v=EC6bf8JCpDQ&pbjreload=10
+https://way2java.com/java-lang/class-math-java-lang/java-math-round-function-round-up-round-down-value/
+
